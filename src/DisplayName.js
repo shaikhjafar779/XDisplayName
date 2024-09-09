@@ -43,6 +43,7 @@ const FullNameDisplay = () => {
       {fullName && (
         <p style={{ marginTop: '20px' }}>Full Name: {fullName}</p>
       )}
+      
     </div>
   );
 };
