@@ -5,6 +5,7 @@ const FullNameDisplay = () => {
   const [lastName, setLastName] = useState('');
   const [fullName, setFullName] = useState('');
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     if (firstName && lastName) {
